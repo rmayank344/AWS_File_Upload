@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon Src/app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.717.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "nodemon": "^3.1.9"
+  }
+}
